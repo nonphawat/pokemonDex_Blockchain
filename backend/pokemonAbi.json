@@ -1,0 +1,69 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "pokeName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "typeOf",
+				"type": "string"
+			}
+		],
+		"name": "addPokemon",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "address",
+				"name": "recipient",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			}
+		],
+		"name": "AddPokemon",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "getMypokemon",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "typeOfpokemon",
+						"type": "string"
+					}
+				],
+				"internalType": "struct PokemonStore.Pokemon[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

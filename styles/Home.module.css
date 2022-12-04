@@ -1,6 +1,21 @@
-.container {
-  padding: 0 2rem;
+.withNo{
+  list-style: none;
+  
+  font-size: 20px;
+  
 }
+.liFloat{
+  text-align: left;
+  padding: 5px;
+  
+}
+.underline{
+  border-bottom:1px solid #fff;
+  padding:5px;
+  
+}
+
+
 
 .main {
   min-height: 100vh;
